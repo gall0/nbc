@@ -1,0 +1,20 @@
+uuid: 140a0d3a-56e9-484d-a77f-f430e14856fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.my_volunteer_hours
+  module:
+    - user
+id: node.my_volunteer_hours.teaser
+targetEntityType: node
+bundle: my_volunteer_hours
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

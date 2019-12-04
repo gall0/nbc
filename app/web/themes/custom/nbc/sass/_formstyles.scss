@@ -1,0 +1,144 @@
+.title {
+    color: var(--primary)!important;
+}
+
+h2, .h2 {
+    color: var(--primary-dark)!important;
+}
+
+table tr th {
+    background: var(--white);
+    color: var(--primary-dark);
+    border-top: none!important;
+    border-bottom: 4px solid var(--primary)!important;
+
+    a {
+        color: var(--primary);
+    }
+    a:hover {
+        color: var(--primary-dark); 
+    }
+}
+
+#edit-field-volunteered-month-of-0-subform-field-month-wrapper {
+    padding-right:0!important;
+}
+
+#edit-field-volunteered-month-of-0-subform-field-year-wrapper {
+    padding:0!important;
+}
+
+input+.field-suffix, #edit-field-log-notes-0-format, #edit-field-notes-0-format, .field-multiple-drag, .paragraph-type, .paragraphs-icon-button-collapse, .tabledrag-toggle-weight-wrapper {
+    display:none!important;
+}
+
+.paragraph-type-title {
+    display:none!important;
+}
+
+.paragraph-type-top {
+    justify-content: end!important;
+}
+
+.paragraph-top{
+    display:inline-flex;
+}
+
+.form-group {
+    margin-bottom:0!important;
+}
+
+.attachment-after, .paragraphs-subform {
+    @extend .row;
+}
+
+.paragraphs-dropdown-actions{
+    background: var(--primary);
+}
+
+
+/* Style Fields */
+.field--name-field-hours {
+    @extend .col-12;
+    @extend .col-md-3;
+}
+
+.field--name-field-activity-name {
+    @extend .col-12;
+    @extend .col-md-9;
+}
+
+#edit-actions {
+    margin-top: 1em;
+    margin-bottom: 3em!important;
+}
+
+.label, .form-label, {
+    font-size: 1.6em;
+    margin-bottom:0;
+}
+
+.field-label {
+    font-size:1.4em;
+}
+
+.form-item-field-notes-0-value, .form-item-field-log-notes-0-value {
+    padding-left: 0!important;
+    padding-right: 0!important;
+
+    label {
+        margin-top: 1em;
+        font-size: 2em;
+        width: 100%;
+        padding: .25em 1em .1em .3em;
+
+        background: var(--white);
+        color: var(--primary-dark);
+        border-top: none!important;
+        border-bottom: 4px solid var(--primary)!important;
+
+    }
+}
+
+#views-exposed-form-manager-manage-hours-page, #views-exposed-form-manager-cumulative-hours-report{
+    .form-row > fieldset {
+        padding-left: 0!important;
+        padding-right: 1em!important;
+        width: 50%;
+}
+
+}
+
+
+.tablesort--asc {
+  background-image: url(../../../../core/misc/icons/787878/twistie-down.svg)!important;
+}
+.tablesort--desc {
+  background-image: url(../../../../core/misc/icons/787878/twistie-up.svg)!important;
+}
+
+/** Remove unwanted Paddings **/
+.js-form-type-vertical-tabs, .field--type-entity-reference-revisions, .field--type-text-long, .form-actions, .field--type-integer, .form-type-select, .form-type-date {
+    padding-left: 0em!important;
+    padding-right: 0em!important;
+}
+
+#edit-account {
+    .form-type-password-confirm{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .form-label {
+      font-size: 1.2em;
+    }
+}
+
+.table-responsive {
+    padding-left: 0!important;
+    padding-right:0!important;
+}
+
+#sidebar_second {
+    padding-left:0!important;
+}

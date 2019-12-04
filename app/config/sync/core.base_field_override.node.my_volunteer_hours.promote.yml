@@ -1,0 +1,22 @@
+uuid: dd341775-9d45-4d82-a897-b2408d3f779a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.my_volunteer_hours
+id: node.my_volunteer_hours.promote
+field_name: promote
+entity_type: node
+bundle: my_volunteer_hours
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

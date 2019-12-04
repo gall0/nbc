@@ -1,0 +1,39 @@
+uuid: 4221b1f2-b9fb-42a2-a4c6-0808ee2b4df0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.volunteer_hours.field_log_activity
+    - field.field.paragraph.volunteer_hours.field_log_date
+    - field.field.paragraph.volunteer_hours.field_log_hours
+    - paragraphs.paragraphs_type.volunteer_hours
+  module:
+    - datetime
+id: paragraph.volunteer_hours.default
+targetEntityType: paragraph
+bundle: volunteer_hours
+mode: default
+content:
+  field_log_activity:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_log_date:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_log_hours:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

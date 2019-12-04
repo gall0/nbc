@@ -1,0 +1,16 @@
+uuid: c6cd0964-6995-481b-a929-2f77db691365
+langcode: en
+status: true
+dependencies: {  }
+id: upon_user_login
+label: 'Upon user login'
+description: 'Upon user login'
+reacts_on: user_login
+target_entity_type: user
+target_bundle: user
+items:
+  check_role_upon_login:
+    id: check_role_upon_login
+    type: condition
+    weight: -9
+tags: {  }

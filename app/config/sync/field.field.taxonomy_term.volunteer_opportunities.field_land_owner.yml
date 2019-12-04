@@ -1,0 +1,21 @@
+uuid: 6c999dde-0f9d-4804-abb1-4d35e6d0e21f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_land_owner
+    - taxonomy.vocabulary.volunteer_opportunities
+  module:
+    - options
+id: taxonomy_term.volunteer_opportunities.field_land_owner
+field_name: field_land_owner
+entity_type: taxonomy_term
+bundle: volunteer_opportunities
+label: 'Land Owner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

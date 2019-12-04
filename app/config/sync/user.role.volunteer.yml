@@ -1,0 +1,12 @@
+uuid: 3a37f1da-7bf4-4c15-8f46-d51bcefd4e9b
+langcode: en
+status: true
+dependencies: {  }
+id: volunteer
+label: Volunteer
+weight: 3
+is_admin: null
+permissions:
+  - 'create my_volunteer_hours content'
+  - 'delete own my_volunteer_hours content'
+  - 'edit own my_volunteer_hours content'

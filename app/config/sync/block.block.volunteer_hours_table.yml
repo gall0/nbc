@@ -1,0 +1,39 @@
+uuid: 48a1c557-a92b-4018-8b38-7ae6f8c60abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.volunteer
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - nbc
+id: volunteer_hours_table
+theme: nbc
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:volunteer-block_1'
+settings:
+  id: 'views_block:volunteer-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/volunteer/*'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      volunteer: volunteer
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

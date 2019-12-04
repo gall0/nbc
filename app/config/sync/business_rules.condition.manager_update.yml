@@ -1,0 +1,22 @@
+uuid: 1ac2ae88-e6d1-463f-9c47-0653cbe072bb
+langcode: en
+status: true
+dependencies: {  }
+id: manager_update
+label: 'Manager Update'
+type: user_has_role
+reverse: false
+description: 'Manager is redirected back to manage hours after update. '
+target_entity_type: null
+target_bundle: null
+success_items:
+  redirect_to_manage_hours:
+    id: redirect_to_manage_hours
+    type: action
+    weight: -9
+fail_items: {  }
+tags: {  }
+settings:
+  roles:
+    manager: manager
+  criteria: all

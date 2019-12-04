@@ -1,0 +1,8 @@
+uuid: d0254381-bef5-4c9f-888b-b6ca5011e515
+langcode: en
+status: true
+dependencies: {  }
+id: new-user-registration
+label: 'New User Registration'
+description: ''
+locked: false

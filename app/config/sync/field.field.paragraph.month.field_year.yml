@@ -1,0 +1,23 @@
+uuid: 812104fd-49e3-4137-ab3d-f6123e72fdb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_year
+    - paragraphs.paragraphs_type.month
+  module:
+    - options
+id: paragraph.month.field_year
+field_name: field_year
+entity_type: paragraph
+bundle: month
+label: Year
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '2019'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

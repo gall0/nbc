@@ -1,0 +1,59 @@
+// Custom.scss
+
+// Your variable overrides
+$theme-colors: (
+  "primary": #246c50,
+  "primary-light": #549b7c,
+  "primary-dark": #004028, 
+  "secondary": #fff29b,
+  "secondary-light": #ffffcd,
+  "secondary-dark": #cbc06b,
+  // Custom Variants
+  "white": #ffffff,
+  "pink": #b2205d,
+  "pink-light": #e8588a,
+  "pink-dark": #7d0034,
+  "green": #248200,
+  "green-light": #5bb23b,
+  "green-dark": #005400,
+  "blue": #0058ad,
+  "blue-light": #c6d9ff,
+  "blue-dark": #00307d,
+  "light": #EEEEEE,  
+  "dark": #111111,
+  "grey": #555555,
+  "grey-light": #f1f1f1,
+  "grey-dark": #222222,
+);
+
+// Color override. Listing all options but only overriding two that will be used as color variants.
+// $blue:    #007bff !default;
+// $indigo:  #6610f2 !default;
+// $purple:  #6f42c1 !default;
+// $pink:    #b2205d;
+// $red:     #dc3545 !default;
+// $orange:  #fd7e14 !default;
+// $yellow:  #ffc107 !default;
+// $green:   #5db220;
+// $teal:    #20c997 !default;
+// $cyan:    #17a2b8 !default;
+
+
+// $theme-colors: map-merge((
+//  "primary":    $primary,
+//  "secondary":  $secondary,
+//  "success":    $success,
+//  "info":       $info,
+//  "warning":    $warning,
+//  "danger":     $danger,
+//  "light":      $light,
+//  "dark":       $dark
+//), $theme-colors);
+// stylelint-enable
+
+
+
+
+
+// Include all of Bootstrap
+@import "../../../../../vendor/twbs/bootstrap/scss/bootstrap";

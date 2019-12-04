@@ -1,0 +1,59 @@
+uuid: ef373184-2566-4955-991e-7faed2eba037
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.my_volunteer_hours.field_log_notes
+    - field.field.node.my_volunteer_hours.field_volunteer_hours_log
+    - node.type.my_volunteer_hours
+  module:
+    - paragraphs
+    - text
+id: node.my_volunteer_hours.default
+targetEntityType: node
+bundle: my_volunteer_hours
+mode: default
+content:
+  field_log_notes:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_volunteer_hours_log:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true

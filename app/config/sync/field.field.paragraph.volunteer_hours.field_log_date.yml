@@ -1,0 +1,24 @@
+uuid: 48cdd926-5a51-4a9d-9d64-c4fa3007bd1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_log_date
+    - paragraphs.paragraphs_type.volunteer_hours
+  module:
+    - datetime
+id: paragraph.volunteer_hours.field_log_date
+field_name: field_log_date
+entity_type: paragraph
+bundle: volunteer_hours
+label: Date
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

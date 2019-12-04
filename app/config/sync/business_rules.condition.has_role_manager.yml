@@ -1,0 +1,22 @@
+uuid: 5f657780-d32d-42f7-ae2e-057d7a78a976
+langcode: en
+status: true
+dependencies: {  }
+id: has_role_manager
+label: 'Has Role Manager'
+type: user_has_role
+reverse: false
+description: 'Managers need to be redirected to the manage hours page. Managers don''t have a "My Volunteer Hours" section. '
+target_entity_type: null
+target_bundle: null
+success_items:
+  redirect_to_manage_hours:
+    id: redirect_to_manage_hours
+    type: action
+    weight: -9
+fail_items: {  }
+tags: {  }
+settings:
+  roles:
+    manager: manager
+  criteria: all

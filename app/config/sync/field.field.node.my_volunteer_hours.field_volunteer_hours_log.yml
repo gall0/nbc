@@ -1,0 +1,37 @@
+uuid: 9a29d4ca-1843-4d8c-bd86-7c38a31eddf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_volunteer_hours_log
+    - node.type.my_volunteer_hours
+    - paragraphs.paragraphs_type.volunteer_hours
+  module:
+    - entity_reference_revisions
+id: node.my_volunteer_hours.field_volunteer_hours_log
+field_name: field_volunteer_hours_log
+entity_type: node
+bundle: my_volunteer_hours
+label: 'Volunteer Hours Log'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      volunteer_hours: volunteer_hours
+    target_bundles_drag_drop:
+      activity:
+        weight: 4
+        enabled: false
+      month:
+        weight: 5
+        enabled: false
+      volunteer_hours:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

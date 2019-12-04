@@ -1,0 +1,20 @@
+uuid: c7cec852-4962-4127-a7a4-7a3141644b2b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_log_hours
+field_name: field_log_hours
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

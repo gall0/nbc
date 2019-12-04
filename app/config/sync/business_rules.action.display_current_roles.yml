@@ -1,0 +1,14 @@
+uuid: b9f0816e-1755-4bc1-b5ed-043ad8afa6ae
+langcode: en
+status: true
+dependencies: {  }
+id: display_current_roles
+label: 'Display Current Roles'
+description: 'Display Current Roles'
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: status
+  message: '[current-user:roles] - [current-user:original:roles:keys]'

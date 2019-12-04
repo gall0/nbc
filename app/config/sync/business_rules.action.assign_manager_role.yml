@@ -1,0 +1,15 @@
+uuid: bbb1fda4-22cb-4226-8fb3-a20e7a6720a0
+langcode: en
+status: true
+dependencies: {  }
+id: assign_manager_role
+label: 'Assign Manager Role'
+description: 'Assign Manager Role'
+type: add_user_role
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  user_container: current
+  roles:
+    manager: manager

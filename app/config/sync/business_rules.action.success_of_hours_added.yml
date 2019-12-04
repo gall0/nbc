@@ -1,0 +1,14 @@
+uuid: 3b040925-c796-4d1c-b345-0084476690cb
+langcode: en
+status: true
+dependencies: {  }
+id: success_of_hours_added
+label: 'Success of Hours Added'
+description: 'Give manager a success message that hours were added. '
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: status
+  message: "Hours added for volunteer: [node:author:display-name]!  DEBUG ONLY:  Current User ID: [current-user:uid] Current User Name: [current-user:account-name] Node Author: [node:author:display-name]\t"

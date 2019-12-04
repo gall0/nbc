@@ -1,0 +1,13 @@
+uuid: 6e9ef448-5058-4ed6-9aa5-fbf5b0217999
+langcode: en
+status: true
+dependencies: {  }
+id: redirect_to_continue_adding_hours
+label: 'Redirect to Continue Adding Hours'
+description: 'Used to improve workflow on manager so they can add hours faster. '
+type: page_redirect
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  url: /node/add/my_volunteer_hours

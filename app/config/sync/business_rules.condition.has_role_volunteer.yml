@@ -1,0 +1,22 @@
+uuid: c1a04a57-cac9-4f5e-8aed-f4572392e9eb
+langcode: en
+status: true
+dependencies: {  }
+id: has_role_volunteer
+label: 'Has Role Volunteer'
+type: user_has_role
+reverse: false
+description: 'Has Role Volunteer'
+target_entity_type: null
+target_bundle: null
+success_items:
+  redirect_volunteer:
+    id: redirect_volunteer
+    type: action
+    weight: -9
+fail_items: {  }
+tags: {  }
+settings:
+  roles:
+    volunteer: volunteer
+  criteria: all

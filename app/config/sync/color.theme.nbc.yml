@@ -1,0 +1,18 @@
+palette:
+  top: '#004028'
+  bottom: '#ffffcd'
+  bg: '#ffffff'
+  sidebar: '#f6f6f2'
+  sidebarborders: '#f9f9f9'
+  footer: '#ffffff'
+  button: '#246c50'
+  buttonhover: '#549b7c'
+  titleslogan: '#246c50'
+  text: '#3b3b3b'
+  link: '#246c50'
+logo: 'public://color/nbc-68673aa3/logo.svg'
+stylesheets:
+  - 'public://color/nbc-68673aa3/colors.css'
+files:
+  - 'public://color/nbc-68673aa3/logo.svg'
+  - 'public://color/nbc-68673aa3/colors.css'

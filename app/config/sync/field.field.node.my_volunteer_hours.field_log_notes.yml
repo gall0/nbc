@@ -1,0 +1,21 @@
+uuid: 324237b7-92b8-4919-a0fb-e5eabe983c83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_log_notes
+    - node.type.my_volunteer_hours
+  module:
+    - text
+id: node.my_volunteer_hours.field_log_notes
+field_name: field_log_notes
+entity_type: node
+bundle: my_volunteer_hours
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

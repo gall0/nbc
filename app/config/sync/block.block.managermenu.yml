@@ -1,0 +1,32 @@
+uuid: c40ed58a-019f-4ecd-acce-ab2ae05d4c2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.manager-menu
+  module:
+    - system
+    - user
+  theme:
+    - nbc
+id: managermenu
+theme: nbc
+region: primary_menu
+weight: -9
+provider: null
+plugin: 'system_menu_block:manager-menu'
+settings:
+  id: 'system_menu_block:manager-menu'
+  label: 'Manager Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      manager: manager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

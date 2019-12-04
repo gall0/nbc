@@ -1,0 +1,29 @@
+uuid: 142d3edc-78c2-4cf9-ae5f-fb81b92fa933
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_log_activity
+    - paragraphs.paragraphs_type.volunteer_hours
+    - taxonomy.vocabulary.volunteer_opportunities
+id: paragraph.volunteer_hours.field_log_activity
+field_name: field_log_activity
+entity_type: paragraph
+bundle: volunteer_hours
+label: Activity
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      volunteer_opportunities: volunteer_opportunities
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

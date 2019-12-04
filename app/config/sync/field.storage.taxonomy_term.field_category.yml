@@ -1,0 +1,42 @@
+uuid: 5fb4897b-a716-4d5b-b27e-ed40d848e6c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_category
+field_name: field_category
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Administration
+      label: Administration
+    -
+      value: Advocacy
+      label: Advocacy
+    -
+      value: Education
+      label: Education
+    -
+      value: Fundraising
+      label: Fundraising
+    -
+      value: Research
+      label: Research
+    -
+      value: Restoration
+      label: Restoration
+    -
+      value: 'Volunteer Development'
+      label: 'Volunteer Development'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

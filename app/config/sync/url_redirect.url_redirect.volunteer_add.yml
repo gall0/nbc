@@ -1,0 +1,14 @@
+uuid: a3179123-4af0-485f-8744-ef59aea27125
+langcode: en
+status: '1'
+dependencies: {  }
+id: volunteer_add
+label: 'Volunteer Add'
+message: 'No'
+path: volunteer/add
+redirect_path: node/add/my_volunteer_hours
+checked_for: Role
+negate: false
+user: null
+roles:
+  volunteer: volunteer

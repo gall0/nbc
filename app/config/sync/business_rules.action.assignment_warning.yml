@@ -1,0 +1,14 @@
+uuid: b003a9d3-22c9-4037-9466-3d808d4a1afe
+langcode: en
+status: true
+dependencies: {  }
+id: assignment_warning
+label: 'Assignment Warning'
+description: 'Warn manager they assigned hours to themselves. '
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: warning
+  message: "Warning: You have added hours under the manager account. Please <a href=\"[node:edit-url]\">revise the hours you just added</a> and assign them to a volunteer account.  Current User ID: [current-user:uid] Current User Name: [current-user:account-name] Node Author: [node:author:display-name]\t"

@@ -1,0 +1,23 @@
+uuid: fa59ec21-0a86-4f4e-b60b-73c933e15842
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: volunteer_opportunities_taxonomy
+label: 'Volunteer Opportunities Taxonomy'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'volunteer-opportunities/[term:name]'
+selection_criteria:
+  b9164693-3307-45ee-8719-7ddf01a094a0:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      volunteer_opportunities: volunteer_opportunities
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: b9164693-3307-45ee-8719-7ddf01a094a0
+selection_logic: and
+weight: -5
+relationships: {  }

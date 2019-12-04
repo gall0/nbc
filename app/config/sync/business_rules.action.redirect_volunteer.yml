@@ -1,0 +1,13 @@
+uuid: dabbbe3f-7190-42f9-b965-c01f3e568476
+langcode: en
+status: true
+dependencies: {  }
+id: redirect_volunteer
+label: 'Redirect Volunteer'
+description: 'Redirect Volunteer'
+type: page_redirect
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  url: /user

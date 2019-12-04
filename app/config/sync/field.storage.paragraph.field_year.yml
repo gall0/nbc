@@ -1,0 +1,30 @@
+uuid: 717db619-aed6-460f-9664-c90eb34c76de
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_year
+field_name: field_year
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '2019'
+      label: '2019'
+    -
+      value: '2020'
+      label: '2020'
+    -
+      value: '2021'
+      label: '2021'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

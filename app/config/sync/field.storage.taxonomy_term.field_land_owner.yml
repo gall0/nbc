@@ -1,0 +1,39 @@
+uuid: 8ddc81c2-3346-4db1-bd64-dcb8468cc122
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_land_owner
+field_name: field_land_owner
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: all
+      label: '-All-'
+    -
+      value: none
+      label: '-None-'
+    -
+      value: cdfw
+      label: CDFW
+    -
+      value: cofnb
+      label: 'City of NB'
+    -
+      value: ocparks
+      label: 'OC Parks'
+    -
+      value: projectgrow
+      label: 'Project Grow'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

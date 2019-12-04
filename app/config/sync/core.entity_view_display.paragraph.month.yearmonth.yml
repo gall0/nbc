@@ -1,0 +1,31 @@
+uuid: dffc9fc2-4c2a-49db-8e5c-2e0d456a48bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.yearmonth
+    - field.field.paragraph.month.field_month
+    - field.field.paragraph.month.field_year
+    - paragraphs.paragraphs_type.month
+  module:
+    - options
+id: paragraph.month.yearmonth
+targetEntityType: paragraph
+bundle: month
+mode: yearmonth
+content:
+  field_month:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_year:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+hidden: {  }

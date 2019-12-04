@@ -1,0 +1,16 @@
+uuid: c6287bbd-e0a3-4938-96e6-ad49002418ab
+langcode: en
+status: true
+dependencies: {  }
+id: manager_update_redirect
+label: 'Manager Update - Redirect'
+description: 'This redirects back to manage hours after update. '
+reacts_on: entity_update
+target_entity_type: node
+target_bundle: my_volunteer_hours
+items:
+  manager_update:
+    id: manager_update
+    type: condition
+    weight: -9
+tags: {  }

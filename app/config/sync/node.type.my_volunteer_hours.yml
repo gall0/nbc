@@ -1,0 +1,17 @@
+uuid: 38a20477-e438-41d6-8298-617a43cdef63
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'My Volunteer Hours'
+type: my_volunteer_hours
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

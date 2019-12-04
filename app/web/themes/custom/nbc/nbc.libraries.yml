@@ -1,0 +1,18 @@
+global-styling:
+  version: VERSION
+  js:
+    js/global.js: {}
+  css:
+    component:
+      css/style.css: {}
+      css/colors.css: {}
+      css/main.css: {}
+bootstrap:
+  js:
+    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
+nbcCopyToClipboard:
+  version: 1.x
+  js:
+    js/nbcCopyToClipboard.js: {}
+  dependencies:
+    - core/jquery

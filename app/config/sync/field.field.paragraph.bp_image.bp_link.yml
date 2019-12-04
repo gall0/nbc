@@ -1,0 +1,25 @@
+uuid: c5c68459-52a1-4cc2-b2a2-8504cfe1cdb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_link
+    - paragraphs.paragraphs_type.bp_image
+  module:
+    - link
+_core:
+  default_config_hash: nHNdZp7wQJe5kTPPmYHDLmajMYkS9mxJ1HXQHNEGT38
+id: paragraph.bp_image.bp_link
+field_name: bp_link
+entity_type: paragraph
+bundle: bp_image
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

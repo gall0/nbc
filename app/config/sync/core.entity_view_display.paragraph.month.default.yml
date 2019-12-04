@@ -1,0 +1,30 @@
+uuid: a8b51f6f-d2da-49ec-93d4-b6e26950074f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.month.field_month
+    - field.field.paragraph.month.field_year
+    - paragraphs.paragraphs_type.month
+  module:
+    - options
+id: paragraph.month.default
+targetEntityType: paragraph
+bundle: month
+mode: default
+content:
+  field_month:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_year:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

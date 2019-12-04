@@ -1,0 +1,16 @@
+uuid: 43d307d1-62d2-410c-b487-cc0bc6d9087a
+langcode: en
+status: true
+dependencies: {  }
+id: redirect_home_after_adding_hours
+label: 'Redirect Home after Adding Hours'
+description: 'Redirect Home after Adding Hours'
+reacts_on: entity_insert
+target_entity_type: node
+target_bundle: my_volunteer_hours
+items:
+  has_role_volunteer:
+    id: has_role_volunteer
+    type: condition
+    weight: -9
+tags: {  }

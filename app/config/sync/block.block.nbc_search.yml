@@ -1,0 +1,22 @@
+uuid: cf922d58-23d6-4faf-945a-5399f1851e0a
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - nbc
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: nbc_search
+theme: nbc
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

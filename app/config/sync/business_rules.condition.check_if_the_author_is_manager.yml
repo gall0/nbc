@@ -1,0 +1,27 @@
+uuid: 89297d38-f074-4889-b765-54658edfecbf
+langcode: en
+status: true
+dependencies: {  }
+id: check_if_the_author_is_manager
+label: 'Check if the Author is Manager'
+type: data_comparison
+reverse: false
+description: 'Manager may author hours but not on their behalf. So issue a warning if the author is still manager. '
+target_entity_type: node
+target_bundle: my_volunteer_hours
+success_items:
+  assignment_warning:
+    id: assignment_warning
+    type: action
+    weight: -9
+fail_items:
+  success_of_hours_added:
+    id: success_of_hours_added
+    type: action
+    weight: -8
+tags: {  }
+settings:
+  field: uid
+  data_to_compare: current_data
+  operator: '=='
+  value_to_compare: '16'

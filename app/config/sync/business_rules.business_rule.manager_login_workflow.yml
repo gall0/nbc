@@ -1,0 +1,16 @@
+uuid: 0ff48dfc-41f1-4f24-b80b-9ea9b686f723
+langcode: en
+status: true
+dependencies: {  }
+id: manager_login_workflow
+label: 'Manager Login Workflow'
+description: 'This workflow checks if user is manager and sends to manage hours page. '
+reacts_on: user_login
+target_entity_type: user
+target_bundle: user
+items:
+  has_role_manager:
+    id: has_role_manager
+    type: condition
+    weight: -9
+tags: {  }

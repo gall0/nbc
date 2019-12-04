@@ -1,0 +1,14 @@
+uuid: 408334a6-e334-4af1-9645-41dc6fd8150b
+langcode: en
+status: true
+dependencies: {  }
+id: _display_false
+label: '_Display False'
+description: 'Display False - Condition is false.'
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: status
+  message: 'Condition is false.'

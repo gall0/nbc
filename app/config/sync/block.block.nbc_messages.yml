@@ -1,0 +1,22 @@
+uuid: 3cf83457-2b7f-48e9-9831-a7200c9a5c32
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nbc
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: nbc_messages
+theme: nbc
+region: breadcrumb
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 03d968da-0bbd-4d57-ba57-46adc6d700ca
+langcode: en
+status: true
+dependencies: {  }
+id: manager_adding_hours_loop
+label: 'Manager - Adding Hours Loop'
+type: user_has_role
+reverse: false
+description: 'This condition checks for role manager and redirects them to continue adding hours. '
+target_entity_type: null
+target_bundle: null
+success_items:
+  redirect_to_continue_adding_hours:
+    id: redirect_to_continue_adding_hours
+    type: action
+    weight: -9
+fail_items: {  }
+tags: {  }
+settings:
+  roles:
+    manager: manager
+  criteria: all

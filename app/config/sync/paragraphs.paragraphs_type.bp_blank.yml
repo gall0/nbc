@@ -1,0 +1,11 @@
+uuid: 8860bd2a-6d0f-4a6c-a071-db8155becbcb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: P0WNbbdDx4xYSWL4kmWW2S2BA3igTb5k7HIxNAtHyU8
+id: bp_blank
+label: Blank
+icon_uuid: null
+description: null
+behavior_plugins: {  }

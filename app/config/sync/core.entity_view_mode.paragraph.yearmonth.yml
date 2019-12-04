@@ -1,0 +1,10 @@
+uuid: 5d391f7f-c1da-4fb9-ada8-f033a569128e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.yearmonth
+label: YearMonth
+targetEntityType: paragraph
+cache: true

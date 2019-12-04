@@ -1,0 +1,14 @@
+uuid: d299ea58-cd8b-470b-920e-9b3b761a4b0e
+langcode: en
+status: true
+dependencies: {  }
+id: _display_true
+label: '_Display True'
+description: 'Display True - This is a helper action.'
+type: show_message
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  message_type: status
+  message: 'Condition is true.'

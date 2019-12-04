@@ -1,0 +1,16 @@
+uuid: eee84161-a55c-45ca-a61e-a784e05e50bf
+langcode: en
+status: true
+dependencies: {  }
+id: redirect_home_after_updating_hours
+label: 'Redirect Home after Updating Hours'
+description: 'Redirect Home after Updating Hours'
+reacts_on: entity_update
+target_entity_type: node
+target_bundle: my_volunteer_hours
+items:
+  has_role_volunteer:
+    id: has_role_volunteer
+    type: condition
+    weight: -9
+tags: {  }

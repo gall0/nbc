@@ -1,0 +1,32 @@
+uuid: 1db86523-195d-49a9-88f6-ea15f42cb1b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.new-user-registration
+  module:
+    - system
+    - user
+  theme:
+    - nbc
+id: newuserregistration
+theme: nbc
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:new-user-registration'
+settings:
+  id: 'system_menu_block:new-user-registration'
+  label: 'New User Registration'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

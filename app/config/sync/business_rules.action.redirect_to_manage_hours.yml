@@ -1,0 +1,13 @@
+uuid: 01ca47b4-660d-4f36-8a3c-af1d69eb2e8e
+langcode: en
+status: true
+dependencies: {  }
+id: redirect_to_manage_hours
+label: 'Redirect to Manage Hours'
+description: 'Redirect to manage hours.'
+type: page_redirect
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  url: /manager/hours

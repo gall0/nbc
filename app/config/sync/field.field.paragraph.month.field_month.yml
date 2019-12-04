@@ -1,0 +1,23 @@
+uuid: fe576dd0-0098-4795-b1e2-775db2dc892e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_month
+    - paragraphs.paragraphs_type.month
+  module:
+    - options
+id: paragraph.month.field_month
+field_name: field_month
+entity_type: paragraph
+bundle: month
+label: Month
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,15 @@
+uuid: 831f635f-19ed-4bad-8595-ba4d8f6761fe
+langcode: en
+status: true
+dependencies: {  }
+id: assign_volunteer_role
+label: 'Assign Volunteer Role'
+description: 'Assign Volunteer Role'
+type: add_user_role
+target_entity_type: null
+target_bundle: null
+tags: {  }
+settings:
+  user_container: current
+  roles:
+    volunteer: volunteer

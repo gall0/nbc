@@ -1,0 +1,38 @@
+uuid: ddbe9503-d672-44c3-bcfa-2aa412361788
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.manager
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - nbc
+id: manage_hours_form
+theme: nbc
+region: content
+weight: -6
+provider: null
+plugin: 'views_exposed_filter_block:manager-manage_hours_page'
+settings:
+  id: 'views_exposed_filter_block:manager-manage_hours_page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /manager/hours
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      manager: manager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

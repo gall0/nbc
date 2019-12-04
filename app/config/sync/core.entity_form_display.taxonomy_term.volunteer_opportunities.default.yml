@@ -1,0 +1,36 @@
+uuid: 5741acb8-4231-4616-aba5-b60bd8e6790d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.volunteer_opportunities.field_category
+    - field.field.taxonomy_term.volunteer_opportunities.field_land_owner
+    - taxonomy.vocabulary.volunteer_opportunities
+id: taxonomy_term.volunteer_opportunities.default
+targetEntityType: taxonomy_term
+bundle: volunteer_opportunities
+mode: default
+content:
+  field_category:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_land_owner:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

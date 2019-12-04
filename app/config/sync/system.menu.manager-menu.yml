@@ -1,0 +1,8 @@
+uuid: b8ad03e2-08ae-4ffe-bf64-0c408f8e2cc7
+langcode: en
+status: true
+dependencies: {  }
+id: manager-menu
+label: 'Manager Menu'
+description: ''
+locked: false

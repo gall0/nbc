@@ -1,0 +1,20 @@
+uuid: 70b493b7-bcbd-464f-8aa1-8a0c09fb70bb
+langcode: en
+status: true
+dependencies: {  }
+id: manager_add_hours
+label: 'Manager - Add hours'
+description: 'This workflow enables managers to continue adding hours. '
+reacts_on: entity_insert
+target_entity_type: node
+target_bundle: my_volunteer_hours
+items:
+  check_if_the_author_is_manager:
+    id: check_if_the_author_is_manager
+    type: condition
+    weight: -100
+  manager_adding_hours_loop:
+    id: manager_adding_hours_loop
+    type: condition
+    weight: -99
+tags: {  }

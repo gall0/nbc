@@ -1,0 +1,22 @@
+uuid: 6fb99c9f-31b7-4d33-883a-649eefd38323
+langcode: en
+status: true
+dependencies: {  }
+id: check_role_upon_login
+label: 'Check if logged user has role volunteer.'
+type: user_has_role
+reverse: false
+description: 'When a user first logs in they inherit role authenticated. A user may be authenticated and have another role other than volunteer. So it must have authenticated and not anything else. Then assign volunteer.'
+target_entity_type: null
+target_bundle: null
+success_items: {  }
+fail_items:
+  is_not_manager_or_admin_:
+    id: is_not_manager_or_admin_
+    type: condition
+    weight: -98
+tags: {  }
+settings:
+  roles:
+    volunteer: volunteer
+  criteria: all

@@ -1,0 +1,19 @@
+uuid: c01249da-49cc-42dd-96c7-22d5fa413fcb
+langcode: en
+status: true
+dependencies: {  }
+id: manager
+label: Manager
+weight: 4
+is_admin: null
+permissions:
+  - 'create my_volunteer_hours content'
+  - 'delete any my_volunteer_hours content'
+  - 'delete any volunteer_hours content'
+  - 'delete my_volunteer_hours revisions'
+  - 'delete own my_volunteer_hours content'
+  - 'edit any my_volunteer_hours content'
+  - 'edit own my_volunteer_hours content'
+  - 'override my_volunteer_hours authored by option'
+  - 'revert my_volunteer_hours revisions'
+  - 'view my_volunteer_hours revisions'

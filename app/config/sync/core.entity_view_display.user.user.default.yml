@@ -1,0 +1,20 @@
+uuid: 9a8c0295-9ea9-4878-a7ad-ba70b8edbd35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_first
+    - field.field.user.user.field_last
+  module:
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  field_first: true
+  field_last: true
+  member_for: true

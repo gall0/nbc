@@ -1,0 +1,23 @@
+uuid: bd0437db-7e0c-47df-a6ee-2f59c533a82d
+langcode: en
+status: true
+dependencies: {  }
+id: is_not_manager_or_admin_
+label: 'Is not manager or admin. '
+type: user_has_role
+reverse: true
+description: 'Is not manager or admin. '
+target_entity_type: null
+target_bundle: null
+success_items:
+  assign_volunteer_role:
+    id: assign_volunteer_role
+    type: action
+    weight: -9
+fail_items: {  }
+tags: {  }
+settings:
+  roles:
+    administrator: administrator
+    manager: manager
+  criteria: one

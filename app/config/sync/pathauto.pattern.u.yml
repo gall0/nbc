@@ -1,0 +1,14 @@
+uuid: 7fce4b7e-ecc2-4dc7-90a5-ac6469e65dcf
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: u
+label: 'User Routes'
+type: 'canonical_entities:user'
+pattern: '[user:roles:last]/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
